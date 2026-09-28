@@ -1,0 +1,32 @@
+name: 💡 Idea or request
+description: Something you'd like LastSave to do, or do better.
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape LastSave 💙
+
+        If your idea is still taking shape, [Discussions](https://github.com/LastSaveApp/lastsave/discussions/categories/ideas) or the #ideas channel on [Discord](https://discord.gg/cgTuQXwvA4) are great places to talk it through first.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The moment in your gaming life where LastSave falls short. The "why" helps more than the "how".
+      placeholder: When I finish a game I want to look back at everything I logged, but...
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: How you imagine it working. Rough is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: How do you handle it today?
+      description: A workaround, another app, a spreadsheet — anything.
+    validations:
+      required: false

@@ -1,0 +1,80 @@
+name: 🐞 Bug report
+description: Something in LastSave is broken or behaves in a way it shouldn't.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this 💙
+
+        **Tip:** the fastest way to report a bug is from inside the app — **Report a bug or send feedback**, under **Settings → About**. It attaches your app version, Windows version and the log for you.
+
+        Reporting here works too. Please don't paste anything private (emails, tokens, account names you'd rather keep to yourself) — issues are public.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What went wrong, in a sentence or two.
+      placeholder: The import from Steam stops at 40% and never finishes.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we make it happen?
+      description: The steps that lead to the problem, as precisely as you can.
+      placeholder: |
+        1. Go to Library → Import
+        2. Choose Steam
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: LastSave version
+      description: Shown under Settings → About.
+      placeholder: v0.1.9
+    validations:
+      required: true
+  - type: dropdown
+    id: windows
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11
+        - Windows 10
+        - Other / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where in the app?
+      multiple: true
+      options:
+        - Library
+        - Import (Steam, Epic, PC scan, emulators)
+        - Game page
+        - Play sessions and the in-game overlay
+        - Journal, screenshots and clips
+        - Home
+        - Updates and installing
+        - Settings
+        - Something else
+    validations:
+      required: false
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or logs
+      description: |
+        Drag images in here. For logs, open the bug report dialog in the app and choose **Open logs folder**, then attach the newest file.
+    validations:
+      required: false
