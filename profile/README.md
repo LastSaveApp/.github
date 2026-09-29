@@ -31,6 +31,7 @@ be contributed.
 [X](https://x.com/lastsaveapp) ·
 [Bluesky](https://bsky.app/profile/lastsaveapp.bsky.social) ·
 [Instagram](https://www.instagram.com/lastsave.app) ·
+[Threads](https://www.threads.com/@lastsave.app) ·
 [YouTube](https://www.youtube.com/@LastSave-App) ·
 [TikTok](https://www.tiktok.com/@lastsaveapp) ·
 [Twitch](https://www.twitch.tv/lastsaveapp) ·
