@@ -1,5 +1,5 @@
 # The "Sponsor" button on every public LastSaveApp repository that has no FUNDING.yml of its own.
-# Patreon is reserved but not live yet: uncomment the line once the page is published.
+# One place to tip, so support is never split: Buy Me a Coffee works for supporters everywhere,
+# Colombia included (PayPal-based Ko-fi does not take Colombia-to-Colombia payments).
 github: [LastSaveApp]
-ko_fi: lastsaveapp
-# patreon: lastsave
+buy_me_a_coffee: lastsaveapp

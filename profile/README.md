@@ -24,7 +24,7 @@ be contributed.
 - 💬 **Talk to us** — the [Discord](https://discord.gg/cgTuQXwvA4) is where most of it happens
 - 🐞 **Report a bug or share an idea** — [open an issue](https://github.com/LastSaveApp/lastsave/issues/new/choose) or start a [discussion](https://github.com/LastSaveApp/lastsave/discussions)
 - ⭐ **Star [the repo](https://github.com/LastSaveApp/lastsave)** — it helps other players find it
-- ☕ **Support the project** — [Ko-fi](https://ko-fi.com/lastsaveapp) · [GitHub Sponsors](https://github.com/sponsors/LastSaveApp)
+- ☕ **Support the project** — [Buy Me a Coffee](https://buymeacoffee.com/lastsaveapp) · [GitHub Sponsors](https://github.com/sponsors/LastSaveApp)
 
 ### 📣 Follow along
 
